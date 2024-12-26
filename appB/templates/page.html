@@ -1,0 +1,30 @@
+<!-- templates/base.html -->
+{% load static %}
+
+<html>
+<head>
+    <title>My Django App</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Django App</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Content Section</h2>
+        <p>This is a simple example of how to style your Django app with external CSS.</p>
+        <button>Click Me</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Django Project</p>
+    </footer>
+</body>
+</html>
